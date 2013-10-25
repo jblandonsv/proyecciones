@@ -1,0 +1,63 @@
+body
+{
+	margin: 0;
+    padding: 0;
+	font-size: 16px;
+}
+
+.slide
+{
+	background-color: blue;
+	border-color: 1px solid black;
+	color: #eee;
+	display: block;
+	margin: 0.5em;
+	text-shadow: 2px 2px 6px rgb(240,240,40);
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+}
+
+.slide:hover
+{
+	background-color: green;
+	box-shadow: 5px 5px 6px rgb(240,240,40);
+	font-size: 15px;
+	/*-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);*/
+}
+
+.slide:hover input,.slide:hover button
+{
+	display: block;
+	margin: 3px;
+}
+
+.slide img
+{
+	width: 80px;
+	height: 80px;
+}
+
+.slide input,.slide button
+{
+	display: none;
+}
+
+.slide figure img, figure figcaption
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#area_presentacion
+{
+	margin: auto;
+	position:absolute;	
+	left: 40%;
+	margin-left: -126px;
+}
+
+#imagen_aca, #label_aca
+{
+	display: block;
+}
